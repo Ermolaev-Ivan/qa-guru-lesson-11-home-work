@@ -9,23 +9,9 @@ public class SimpleTest {
     @Test
     void assertTrueTest() {
         Assertions.assertTrue(3 > 2);
-    }
-
-    @Test
-    @Disabled
-    void assertFalseTest() {
-        Assertions.assertTrue(1 > 2);
-    }
-
-    @Test
-    void assertTrueTest2() {
-        Assertions.assertTrue(3 > 2);
-    }
-
-    @Test
-    @Disabled
-    void assertFalseTest2() {
-        Assertions.assertTrue(1 > 2);
+        System.out.println("First commit");
+        System.out.println("Second commit");
+        System.out.println("Third commit");
     }
 }
 
